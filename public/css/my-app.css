@@ -1,0 +1,38 @@
+@media screen and (max-width: 768px) {
+  .mobile-hide {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-only {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .lg-navbar {
+    font-size: 14px
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lg-navbar {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .lg-navbar {
+    font-size: 20px
+  }
+}
+
+.app-logo{
+  display: flex;
+  align-items: center;
+}
+
+.lg-navbar {
+  font-family: "Arial"
+}
